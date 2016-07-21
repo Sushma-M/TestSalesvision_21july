@@ -1,5 +1,5 @@
 var _WM_APP_PROPERTIES = {
-  "activeTheme" : "material",
+  "activeTheme" : "flyer",
   "defaultLanguage" : "en",
   "displayName" : "Testshare_21july",
   "homePage" : "Main",

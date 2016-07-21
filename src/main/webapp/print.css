@@ -13,20 +13,3 @@ img, img a, .more-link a {border:none;}
 
 /*Remove Element*/
 .app-header, .app-top-nav, .app-footer, .app-left-panel, .app-right-panel {display: none !important;}
-
-/*Remove Form Controls*/
-.app-checkboxset, .app-button, .app-button-group, .app-menu, .app-composite-widget,
-.form-group, .form-control,
-.app-fileupload, .app-grid .table-footer
-{display: none !important;}
-
-/*Show all of the grid data*/
-.app-grid .app-datagrid .app-datagrid-cell {
-    overflow: visible;
-    word-wrap: break-word;
-}
-
-/*Show Grid record data*/
-.app-grid-layout .form-group {
-    display: block !important;
-}

@@ -16,8 +16,8 @@ src/main/webapp/WEB-INF/lib
 src/main/webapp/types.js
 src/main/webapp/wmapp
 src/main/webapp/wmmobile
-services/*/designtime/*_API.json
-services/*/src/servicedefs/*-service-definitions.json
+*_API.json
 *_vk.hbm.xml
 !src/main/webapp/WEB-INF/data/*.log
 src/main/webapp/pages/*/page.min.html
+services/*/src/servicedefs/*-service-definitions.json

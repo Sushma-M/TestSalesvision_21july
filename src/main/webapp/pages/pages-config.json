@@ -1,6 +1,24 @@
 [ {
+  "name" : "AdminDash",
+  "type" : "PAGE"
+}, {
   "name" : "Common",
   "type" : "PARTIAL"
+}, {
+  "name" : "CustomerRepo",
+  "type" : "PAGE"
+}, {
+  "name" : "CustomerRepoTest",
+  "type" : "PAGE"
+}, {
+  "name" : "Dashboard",
+  "type" : "PAGE"
+}, {
+  "name" : "Leads",
+  "type" : "PAGE"
+}, {
+  "name" : "Locations",
+  "type" : "PAGE"
 }, {
   "name" : "Login",
   "type" : "PAGE"
@@ -8,18 +26,42 @@
   "name" : "Main",
   "type" : "PAGE"
 }, {
+  "name" : "Page",
+  "type" : "PAGE"
+}, {
+  "name" : "Page1",
+  "type" : "PAGE"
+}, {
+  "name" : "SalesGrowth",
+  "type" : "PAGE"
+}, {
+  "name" : "SalesReps",
+  "type" : "PAGE"
+}, {
   "name" : "footer",
-  "type" : "FOOTER"
+  "type" : "PARTIAL"
 }, {
   "name" : "header",
-  "type" : "HEADER"
+  "type" : "PARTIAL"
+}, {
+  "name" : "leadsList",
+  "type" : "PARTIAL"
 }, {
   "name" : "leftnav",
-  "type" : "LEFTNAV"
+  "type" : "PAGE"
+}, {
+  "name" : "p",
+  "type" : "PAGE"
 }, {
   "name" : "rightnav",
-  "type" : "RIGHTNAV"
+  "type" : "PAGE"
+}, {
+  "name" : "salesgrowthfilter",
+  "type" : "PARTIAL"
+}, {
+  "name" : "systemvitalsfilter",
+  "type" : "PARTIAL"
 }, {
   "name" : "topnav",
-  "type" : "TOPNAV"
+  "type" : "PARTIAL"
 } ]

@@ -1,8 +1,5 @@
 Information about project folder structure and files.
 
-pom.xml
- Add any maven dependencies to this file. Dependencies declared in this file will be available in the class path of application.
-
 lib
  Add custom jar files to this folder. Files added to this folder will be copied to WEB-INF for deployment and on the classpath.
 
@@ -13,6 +10,9 @@ services
  
  To see external updates in studio, use the refresh button in the java editor.
  
+src
+ Custom java classes can be added to this folder using package names. Files added to this folder will be copied to WEB-INF for deployment.
+
 src/main/resources
   log4j.properties can be edited to change logging settings.
 
@@ -45,7 +45,7 @@ src/main/webapp/WEB-INF
   web.xml is a studio managed file. Use user-web.xml. Changes to user-web.xml will be merged into web.xml for deployment.
 
 src/main/webapp/WEB-INF/classes
-  This folder is populated by studio. Do not edit or add any files to this folder. Changes will be lost. Use src/main/resources instead.
+  This folder is populated by studio. Do not edit or add any files to this folder. Changes will be lost. Use project/src instead.
 
 src/main/webapp/WEB-INF/lib
-  This folder is populated by studio. Do not edit or add any files to this folder. Changes will be lost. Add jars into lib directory of the project or add dependencies in the pom.xml instead.
+  This folder is populated by studio. Do not edit or add any files to this folder. Changes will be lost. Use project/lib instead.
